@@ -1,0 +1,44 @@
+/* Set a readable font and a subtle background color for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Create a centered container with a clean and friendly appearance */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the main heading with a centered alignment */
+h1 {
+  text-align: center;
+}
+
+/* Define the appearance of individual time slots */
+.time-slot {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style the "Book" button with a friendly blue color */
+.book-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Change button appearance when hovered for user interaction */
+.book-button:hover {
+  background-color: #2980b9;
+}

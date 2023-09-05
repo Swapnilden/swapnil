@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultant Availability</title>
+  <script src="script2.js"></script>
+</head>
+<body>
+  <div>
+    <h2>Define Working Hours</h2>
+    <label for="startHour">Start Time:</label>
+    <input type="time" id="startHour">
+    <label for="endHour">End Time:</label>
+    <input type="time" id="endHour">
+    <button onclick="saveWorkingHours()">Save</button>
+  </div>
+  <div>
+    <h2>Define Breaks</h2>
+    <label for="breakStart">Start Time:</label>
+    <input type="time" id="breakStart">
+    <label for="breakEnd">End Time:</label>
+    <input type="time" id="breakEnd">
+    <button onclick="saveBreaks()">Save</button>
+  </div>
+  <div>
+    <h2>Define Days Off</h2>
+    <label for="dayOff">Date:</label>
+    <input type="date" id="dayOff">
+    <button onclick="saveDaysOff()">Save</button>
+  </div>
+  <div>
+    <h2>Availability Summary</h2>
+    <p><strong>Working Hours:</strong> <span id="workingHours"></span></p>
+    <p><strong>Breaks:</strong> <span id="breaks"></span></p>
+    <p><strong>Days Off:</strong> <span id="daysOff"></span></p>
+  </div>
+</body>
+</html>
